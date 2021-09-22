@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    cursor: url('../Assets/cursor.png'), auto;
+}
+
+.main {
+    text-align: center;
+}
+
+#regions {
+    padding: 5px;
+}
+
+.output {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.pingcout {
+    padding: 10px;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
