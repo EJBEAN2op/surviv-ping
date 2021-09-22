@@ -1,4 +1,3 @@
-const wsUri = "wss://eu-fra-p1.surviv.io/ptc";
 const regions = document.getElementById('regions');
 const output = document.getElementById('output');
 const mTries = document.getElementById('retries');
