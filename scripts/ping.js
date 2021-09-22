@@ -94,7 +94,8 @@ function init(url, t) {
     }
 
     function send(msg) {
-        ST[st++] = Date.now();
+        ST[st] = Date.now();
+        st += 1;
         webSocket.send(msg);
         log('WS', 'message sent');
         if (st < maxRetries) setTimeout(send, 50);
